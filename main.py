@@ -25,4 +25,6 @@ button.pack()
 button = tk.Button(win,text="显示数据分析结果",height = 4,width = 20,command=output)
 button.pack()
 
+l3 = tk.Label(win, text="Code by 张可 丨 2020/3/15", fg='black', font=('Arial', 8), width=50, height=2)
+l3.pack()
 win.mainloop()
