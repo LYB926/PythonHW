@@ -15,7 +15,7 @@ def draw():
     plt.plot(date,diagnosed,"m")
     plt.axis([0,30,0,15000])
     plt.xlabel("Date")
-    plt.ylabel("diagnosed")
-    plt.title("Demo")
+    plt.ylabel("New confirmed patients")
+    plt.title("New daily diagnoses in China (February 1 to February 29)")
     plt.show()
     
