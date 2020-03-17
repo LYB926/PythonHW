@@ -14,5 +14,5 @@ def get_data():
             data_file.write(data.content)
         tk.messagebox.showinfo(title='All done!', message='数据获取完成，请进行可视化和数据分析。')
     except Exception:
-        tk.messagebox.showerror(title='Error!', message='计算机似乎未连接到Internet。将运行ping指令。')
+        tk.messagebox.showerror(title='Error!', message='计算机似乎未连接到Internet。将运行ping指令。\n请在恢复网络连接后尝试重新获取数据。')
         os.system(u"ping 114.114.114.114")
